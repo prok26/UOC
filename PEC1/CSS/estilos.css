@@ -1,0 +1,192 @@
+/* Hoja de estilos */
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+body{
+  width: 85%;
+  margin:0 auto;
+  height: 100%;
+  padding: 0;
+  color: #222222;
+  background-color: inherit;
+  border-right: 1px solid #DDDDDD;
+  font: 0.9em/1.2em Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 150%;
+}
+section{
+  width: 81%;
+  margin: 0 auto;
+  padding: 3%;
+}
+h1, h2{
+  font-size: 2.8em;
+  font-weight: bold;
+  font-family: Times, Georgia, sans-serif;
+}
+h2{
+  font-size: 2em;
+}
+p{
+  font-size: 1em;
+}
+#author{
+  font-size: 1.2em;
+  font-family: Times, Georgia, sans-serif;
+}
+.opening{
+  margin-right: 8%;
+  margin-left: 8%;
+  border-top: 2.5px solid #DDDDDD;
+  border-bottom: 2.5px solid #DDDDDD;
+  padding: .8em 0  .8em 0;
+  font-size: 1.2em;
+}
+#main_image{
+  align-content: center;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.8em;
+}
+#main_image p{
+  margin-top: 0;
+  padding-top: 0.2em;
+}
+.video{
+  align-content: center;
+  text-align: center;
+  padding: 1.5em;
+  font-size: 0.8em;
+  margin-top: 0;
+}
+.video p{
+  margin-top: 0;
+}
+.video iframe{
+  border-style: none;
+}
+.image_footer_text_hate{
+  font-family: Times, Georgia, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #CC0000;
+}
+a:hover{
+  color: #222;
+  text-decoration: underline;
+}
+#header{
+  background: #000000;
+  color: #FFFFFF;
+}
+#title{
+  margin-left: 15%;
+  padding: 0.2em 0 1em 0;
+  font-size: 3.5em;
+}
+#logo{
+  width: 200px;
+  margin-left: 15%;
+  padding: 0.8em 0;
+}
+#nav_menu{
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 1.5em 0;
+  border-bottom: 3px solid #DDDDDD;
+}
+#nav_menu li{
+  display: inline-block;
+  padding: 0 5em 0 0;
+}
+#nav_menu a{
+  text-decoration: none;
+  color: #222222;
+}
+#nav_menu a:hover{
+  color: #CC0000;
+}
+#nav_menu li.select a{
+  border-bottom: 2px solid #CC0000;
+}
+#footer{
+  color: #FFFFFF;
+  background-color: #3B3B3B;
+}
+#footer img{
+  width: 10%;
+  margin-left: 10%;
+  padding: 1em 0 0 0;
+}
+.estudiante{
+  margin-left: 10%;
+  padding: 0 0 3em 0;
+  font-size: 0.8em;
+  word-spacing: .140em;
+}
+#post_author_bio{
+  margin:0 12%;
+}
+#author_portrait{
+  border-radius: 50%;
+  width: 18%;
+  float:left;
+}
+#post_author_bio p{
+  margin-bottom: 2em;
+  padding: 4em 0 0 20%;
+}
+.source{
+  font-size: 0.9em;
+  margin: 4em 8% 0.5em 8%;
+  font-family: Times, Georgia, sans-serif;
+}
+ol{
+  line-height: 200%;
+  margin-left: 0;
+  padding-left: 1em;
+}
+ul{
+  list-style-type: square;
+}
+ul li ul{
+  font-family: Times, Georgia, sans-serif;
+  font-size: 1em;
+}
+.libros ul{
+  font-family: Times, Georgia, sans-serif;
+  font-size: 1em;
+}
+li.prensa{
+  list-style-type: none;
+  background: url("../img/press-icon.png") 0 1em no-repeat;
+  padding: 2em 0 0 3em;
+  margin-left: -2.5em;
+}
+li.red{
+  list-style-type: none;
+  background: url("../img/internet-icon.png") 0 1em no-repeat;
+  margin-left: -2.5em;
+  padding: 2em 0 0 3em;
+}
+dt{
+  font-size: 1.5em;
+  padding: 1em 0 .5em 0;
+}
+dd{
+  margin-left: 0;
+  padding-top: .5em;
+}
+blockquote{
+  margin: 1em 12%;
+  background-color: #EEEEEE;
+  border-left: 3px solid #DDDDDD;
+  padding: .4em 1.5em .6em 1.5em;
+}
+#post_truth{
+  text-align: center;
+}
